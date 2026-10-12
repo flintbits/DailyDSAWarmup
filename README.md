@@ -1,5 +1,13 @@
 # React + Vite
 
+## Deploy to GitHub Pages
+
+Push to `main` to build and deploy the site with GitHub Actions. In the repository's
+**Settings → Pages**, set the build and deployment source to **GitHub Actions**.
+The deployed URL is `https://flintbits.github.io/DailyDSAWarmup/`.
+
+For local development and builds, Vite continues to use the root path (`/`).
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
