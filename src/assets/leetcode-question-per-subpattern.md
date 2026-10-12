@@ -1,0 +1,486 @@
+# LeetCode Problem Map — Every DSA Subpattern
+
+One representative LeetCode problem is assigned to every subtopic in the supplied DSA checklist.
+
+**How to use this:** solve the linked problem while focusing on the listed subpattern. Some advanced topics do not have a direct LeetCode exercise; those entries use the closest practical representative. Repeated problems are intentional because one problem can train multiple patterns.
+
+**Warm-up rule:** attempt independently first. If stuck, write down the failed approach before checking hints or solutions.
+
+## Arrays & Hashing
+
+- [ ] **Frequency counting / hash maps** — [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
+- [ ] **Hash sets and duplicate detection** — [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+- [ ] **Complement lookup (Two Sum)** — [Two Sum](https://leetcode.com/problems/two-sum/)
+- [ ] **Grouping by key / signature** — [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+- [ ] **Prefix and suffix arrays** — [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
+- [ ] **In-place array manipulation** — [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+- [ ] **Cyclic sort / index placement** — [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
+- [ ] **Missing and duplicate numbers** — [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
+- [ ] **Array rotation** — [Rotate Array](https://leetcode.com/problems/rotate-array/)
+- [ ] **Kadane’s algorithm / maximum subarray** — [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+- [ ] **Counting subarrays with a condition** — [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+- [ ] **Difference arrays / range updates** — [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/)
+
+## Two Pointers
+
+- [ ] **Opposite-direction pointers** — [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+- [ ] **Same-direction pointers** — [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
+- [ ] **Fast and slow pointers** — [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
+- [ ] **Read/write pointers (in-place filtering)** — [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+- [ ] **Sorted-array pair search** — [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+- [ ] **Three-pointer problems (3Sum)** — [3Sum](https://leetcode.com/problems/3sum/)
+- [ ] **Palindrome checking** — [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+- [ ] **Merging sorted arrays** — [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+- [ ] **Partitioning around a condition** — [Sort Colors](https://leetcode.com/problems/sort-colors/)
+
+## Sliding Window
+
+- [ ] **Fixed-size window** — [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)
+- [ ] **Variable-size window** — [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- [ ] **Longest valid window** — [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- [ ] **Minimum valid window** — [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
+- [ ] **Frequency-map window** — [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
+- [ ] **Distinct-character window** — [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- [ ] **At-most-K / exactly-K constraints** — [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)
+- [ ] **Counting valid subarrays** — [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)
+- [ ] **Sliding-window maximum using a deque** — [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
+
+## Prefix Sum & Range Queries
+
+- [ ] **Running prefix sum** — [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+- [ ] **Prefix sum + hash map** — [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+- [ ] **Subarray sum equals K** — [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+- [ ] **Prefix XOR** — [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+- [ ] **2D prefix sums / matrix range sums** — [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)
+- [ ] **Difference array** — [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/)
+- [ ] **Difference matrix** — [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/)
+- [ ] **Prefix/suffix products** — [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
+- [ ] **Cumulative frequency** — [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
+
+## Binary Search
+
+- [ ] **Standard binary search** — [Binary Search](https://leetcode.com/problems/binary-search/)
+- [ ] **Lower bound / upper bound** — [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+- [ ] **First and last occurrence** — [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+- [ ] **Search insertion position** — [Search Insert Position](https://leetcode.com/problems/search-insert-position/)
+- [ ] **Search in rotated sorted array** — [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+- [ ] **Binary search on answer** — [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
+- [ ] **Minimize the maximum / maximize the minimum** — [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
+- [ ] **Feasibility-function search** — [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
+- [ ] **Search in a 2D matrix** — [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
+- [ ] **Peak finding** — [Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+- [ ] **Binary search over an unbounded range** — [Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)
+
+## Sorting & Selection
+
+- [ ] **Custom comparator sorting** — [Largest Number](https://leetcode.com/problems/largest-number/)
+- [ ] **Merge sort** — [Sort an Array](https://leetcode.com/problems/sort-an-array/)
+- [ ] **Quick sort / partitioning** — [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+- [ ] **Counting sort** — [Sort Colors](https://leetcode.com/problems/sort-colors/)
+- [ ] **Bucket sort** — [Sort Colors](https://leetcode.com/problems/sort-colors/)
+- [ ] **Quickselect / kth element** — [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+- [ ] **Dutch National Flag (3-way partition)** — [Sort Colors](https://leetcode.com/problems/sort-colors/)
+- [ ] **Sort intervals** — [Sort an Array](https://leetcode.com/problems/sort-an-array/)
+- [ ] **Sweep line after sorting** — [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
+
+## Stack
+
+- [ ] **Basic stack simulation** — [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+- [ ] **Matching parentheses** — [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+- [ ] **Monotonic increasing stack** — [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+- [ ] **Monotonic decreasing stack** — [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+- [ ] **Next greater / next smaller element** — [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+- [ ] **Previous greater / previous smaller element** — [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+- [ ] **Histogram / maximal rectangle** — [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+- [ ] **Expression evaluation** — [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
+- [ ] **Infix / postfix / prefix expressions** — [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
+- [ ] **Min stack** — [Min Stack](https://leetcode.com/problems/min-stack/)
+- [ ] **Stack-based string decoding** — [Decode String](https://leetcode.com/problems/decode-string/)
+- [ ] **Remove elements using a stack** — [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)
+
+## Queue & Deque
+
+- [ ] **Basic queue** — [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
+- [ ] **Circular queue** — [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
+- [ ] **Deque operations** — [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
+- [ ] **Monotonic deque** — [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
+- [ ] **BFS queue** — [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
+- [ ] **Level-order traversal** — [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+- [ ] **Multi-source BFS** — [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
+- [ ] **0–1 BFS** — [Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
+
+## Linked Lists
+
+- [ ] **Reverse a linked list** — [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+- [ ] **Reverse a sublist** — [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
+- [ ] **Fast and slow pointers** — [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
+- [ ] **Cycle detection** — [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
+- [ ] **Find cycle entry** — [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
+- [ ] **Find middle node** — [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
+- [ ] **Merge sorted lists** — [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+- [ ] **Remove nth node from end** — [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+- [ ] **Reorder list** — [Reorder List](https://leetcode.com/problems/reorder-list/)
+- [ ] **Palindrome linked list** — [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+- [ ] **Reverse in groups of K** — [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
+- [ ] **Merge sort on linked lists** — [Sort an Array](https://leetcode.com/problems/sort-an-array/)
+- [ ] **Copy list with random pointer** — [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
+- [ ] **Doubly linked list operations** — [Design Linked List](https://leetcode.com/problems/design-linked-list/)
+
+## Matrix & Grid
+
+- [ ] **Row-wise / column-wise traversal** — [Island Perimeter](https://leetcode.com/problems/island-perimeter/)
+- [ ] **Boundary traversal** — [Island Perimeter](https://leetcode.com/problems/island-perimeter/)
+- [ ] **Spiral traversal** — [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+- [ ] **Diagonal traversal** — [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)
+- [ ] **Transpose a matrix** — [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)
+- [ ] **Rotate matrix by 90 degrees** — [Rotate Image](https://leetcode.com/problems/rotate-image/)
+- [ ] **In-place matrix transformations** — [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+- [ ] **Matrix search** — [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
+- [ ] **Flood fill** — [Flood Fill](https://leetcode.com/problems/flood-fill/)
+- [ ] **Connected components in a grid** — [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+- [ ] **Grid DFS** — [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+- [ ] **Grid BFS** — [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+- [ ] **Multi-source grid BFS** — [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
+- [ ] **Shortest path in an unweighted grid** — [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
+- [ ] **Backtracking on grids** — [Word Search](https://leetcode.com/problems/word-search/)
+- [ ] **Islands and surrounded regions** — [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+- [ ] **Word search** — [Word Search](https://leetcode.com/problems/word-search/)
+- [ ] **2D prefix sum** — [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)
+- [ ] **Grid dynamic programming** — [Unique Paths](https://leetcode.com/problems/unique-paths/)
+
+## Trees & Binary Trees
+
+- [ ] **Preorder traversal** — [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+- [ ] **Inorder traversal** — [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+- [ ] **Postorder traversal** — [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
+- [ ] **Recursive DFS** — [Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
+- [ ] **Iterative DFS** — [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+- [ ] **Level-order BFS** — [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+- [ ] **Zigzag traversal** — [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+- [ ] **Maximum depth / minimum depth** — [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+- [ ] **Diameter of a tree** — [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
+- [ ] **Height-balanced tree** — [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
+- [ ] **Path sum** — [Path Sum](https://leetcode.com/problems/path-sum/)
+- [ ] **Root-to-leaf paths** — [Path Sum](https://leetcode.com/problems/path-sum/)
+- [ ] **Lowest common ancestor** — [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+- [ ] **Tree views / vertical traversal** — [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)
+- [ ] **Serialize and deserialize** — [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
+- [ ] **Construct tree from traversals** — [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+- [ ] **Binary tree maximum path sum** — [Path Sum](https://leetcode.com/problems/path-sum/)
+- [ ] **Tree DP** — [House Robber III](https://leetcode.com/problems/house-robber-iii/)
+- [ ] **Morris traversal** — [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+- [ ] **Subtree matching** — [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
+
+## Binary Search Trees (BST)
+
+- [ ] **BST search / insertion / deletion** — [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
+- [ ] **Validate BST** — [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+- [ ] **Kth smallest / largest** — [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+- [ ] **Predecessor / successor** — [Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/)
+- [ ] **Lowest common ancestor in BST** — [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+- [ ] **Inorder-based sorted traversal** — [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+- [ ] **Recover swapped BST nodes** — [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)
+- [ ] **Convert sorted array to BST** — [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+- [ ] **Range queries in BST** — [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)
+
+## Graphs
+
+- [ ] **Graph representation (adjacency list / matrix)** — [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)
+- [ ] **Graph DFS** — [Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
+- [ ] **Graph BFS** — [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
+- [ ] **Connected components** — [Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
+- [ ] **Cycle detection in undirected graphs** — [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
+- [ ] **Cycle detection in directed graphs** — [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
+- [ ] **Bipartite graph checking** — [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)
+- [ ] **Topological sort — Kahn’s algorithm** — [Course Schedule](https://leetcode.com/problems/course-schedule/)
+- [ ] **Topological sort — DFS** — [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
+- [ ] **Course scheduling / dependency ordering** — [Course Schedule](https://leetcode.com/problems/course-schedule/)
+- [ ] **Shortest path in unweighted graphs** — [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
+- [ ] **Dijkstra’s algorithm** — [Network Delay Time](https://leetcode.com/problems/network-delay-time/)
+- [ ] **Bellman–Ford** — [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
+- [ ] **Floyd–Warshall** — [Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
+- [ ] **0–1 BFS** — [Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
+- [ ] **Minimum spanning tree — Kruskal** — [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
+- [ ] **Minimum spanning tree — Prim** — [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
+- [ ] **Disjoint Set Union (Union-Find)** — [Redundant Connection](https://leetcode.com/problems/redundant-connection/)
+- [ ] **Bridges and articulation points** — [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)
+- [ ] **Strongly connected components** — [Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
+- [ ] **Multi-source BFS** — [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
+- [ ] **Bidirectional BFS** — [Word Ladder](https://leetcode.com/problems/word-ladder/)
+- [ ] **State-space BFS** — [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)
+- [ ] **Shortest path with extra constraints** — [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)
+
+## Depth-First Search (DFS)
+
+- [ ] **Recursive DFS** — [Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
+- [ ] **Iterative DFS with a stack** — [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+- [ ] **Visited-state management** — [Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
+- [ ] **Connected component exploration** — [Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
+- [ ] **Cycle detection** — [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
+- [ ] **Entry/exit times** — [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+- [ ] **Parent tracking** — [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+- [ ] **DFS on trees** — [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+- [ ] **DFS on matrices** — [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+- [ ] **Backtracking DFS** — [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+- [ ] **DFS with memoization** — [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- [ ] **DFS on directed acyclic graphs (DAGs)** — [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+
+## Breadth-First Search (BFS)
+
+- [ ] **Standard BFS** — [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
+- [ ] **Level-by-level BFS** — [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
+- [ ] **Multi-source BFS** — [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
+- [ ] **Shortest path in unweighted graphs** — [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
+- [ ] **Grid BFS** — [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+- [ ] **Bidirectional BFS** — [Word Ladder](https://leetcode.com/problems/word-ladder/)
+- [ ] **State-space BFS** — [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)
+- [ ] **BFS with visited-on-enqueue** — [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
+- [ ] **0–1 BFS** — [Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
+- [ ] **BFS with distance tracking** — [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
+- [ ] **BFS with parent reconstruction** — [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
+
+## Heap & Priority Queue
+
+- [ ] **Min heap / max heap** — [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+- [ ] **Top K elements** — [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+- [ ] **Kth largest / smallest** — [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+- [ ] **K-way merge** — [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+- [ ] **Merge K sorted lists** — [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+- [ ] **Two heaps (running median)** — [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+- [ ] **Heap-based scheduling** — [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+- [ ] **Greedy selection using heaps** — [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+- [ ] **Lazy deletion** — [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
+- [ ] **Dijkstra with a priority queue** — [Network Delay Time](https://leetcode.com/problems/network-delay-time/)
+
+## Intervals & Sweep Line
+
+- [ ] **Merge overlapping intervals** — [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+- [ ] **Insert an interval** — [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+- [ ] **Interval intersection** — [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+- [ ] **Meeting room scheduling** — [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+- [ ] **Minimum number of rooms** — [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+- [ ] **Minimum arrows / interval covering** — [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+- [ ] **Overlap counting** — [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
+- [ ] **Event sorting** — [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)
+- [ ] **Sweep-line algorithms** — [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+- [ ] **Difference events** — [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/)
+- [ ] **Calendar / booking conflicts** — [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+
+## Greedy
+
+- [ ] **Local optimal choice** — [Jump Game](https://leetcode.com/problems/jump-game/)
+- [ ] **Sorting + greedy** — [Jump Game](https://leetcode.com/problems/jump-game/)
+- [ ] **Interval scheduling** — [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+- [ ] **Activity selection** — [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+- [ ] **Jump Game pattern** — [Jump Game](https://leetcode.com/problems/jump-game/)
+- [ ] **Reachability / minimum jumps** — [Jump Game](https://leetcode.com/problems/jump-game/)
+- [ ] **Greedy resource allocation** — [Jump Game](https://leetcode.com/problems/jump-game/)
+- [ ] **Exchange arguments** — [Jump Game](https://leetcode.com/problems/jump-game/)
+- [ ] **Earliest deadline / shortest job** — [Jump Game](https://leetcode.com/problems/jump-game/)
+- [ ] **Huffman coding** — [Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/)
+- [ ] **Gas station circuit** — [Gas Station](https://leetcode.com/problems/gas-station/)
+- [ ] **Two-city scheduling** — [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)
+- [ ] **Greedy with heaps** — [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+- [ ] **Greedy with proof of correctness** — [Jump Game](https://leetcode.com/problems/jump-game/)
+
+## Backtracking
+
+- [ ] **Subsets** — [Subsets](https://leetcode.com/problems/subsets/)
+- [ ] **Subsets with duplicates** — [Subsets II](https://leetcode.com/problems/subsets-ii/)
+- [ ] **Permutations** — [Permutations](https://leetcode.com/problems/permutations/)
+- [ ] **Permutations with duplicates** — [Permutations II](https://leetcode.com/problems/permutations-ii/)
+- [ ] **Combinations** — [Combinations](https://leetcode.com/problems/combinations/)
+- [ ] **Combination Sum** — [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
+- [ ] **Combination Sum with duplicates** — [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
+- [ ] **Choose / skip recursion** — [Subsets](https://leetcode.com/problems/subsets/)
+- [ ] **Decision-tree exploration** — [Subsets](https://leetcode.com/problems/subsets/)
+- [ ] **Constraint pruning** — [Subsets](https://leetcode.com/problems/subsets/)
+- [ ] **N-Queens** — [N-Queens](https://leetcode.com/problems/n-queens/)
+- [ ] **Sudoku solver** — [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
+- [ ] **Word search** — [Word Search](https://leetcode.com/problems/word-search/)
+- [ ] **Palindrome partitioning** — [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
+- [ ] **Parentheses generation** — [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+- [ ] **Branch-and-bound basics** — [Subsets](https://leetcode.com/problems/subsets/)
+
+## Recursion & Divide and Conquer
+
+- [ ] **Base cases and recursive state** — [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- [ ] **Recurrence relations** — [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- [ ] **Divide, solve, combine** — [Pow(x, n)](https://leetcode.com/problems/powx-n/)
+- [ ] **Merge sort** — [Sort an Array](https://leetcode.com/problems/sort-an-array/)
+- [ ] **Quick sort** — [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+- [ ] **Binary search recursion** — [Pow(x, n)](https://leetcode.com/problems/powx-n/)
+- [ ] **Recursive tree construction** — [Pow(x, n)](https://leetcode.com/problems/powx-n/)
+- [ ] **Fast exponentiation** — [Pow(x, n)](https://leetcode.com/problems/powx-n/)
+- [ ] **Karatsuba-style multiplication concepts** — [Pow(x, n)](https://leetcode.com/problems/powx-n/)
+- [ ] **Master theorem basics** — [Pow(x, n)](https://leetcode.com/problems/powx-n/)
+
+## Dynamic Programming (DP)
+
+- [ ] **State definition** — [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- [ ] **Transition / recurrence** — [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- [ ] **Base cases** — [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- [ ] **Memoization (top-down)** — [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- [ ] **Tabulation (bottom-up)** — [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- [ ] **Space optimization** — [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- [ ] **State compression** — [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- [ ] **1D DP** — [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- [ ] **Climbing stairs / Fibonacci style** — [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- [ ] **House robber / take-or-skip** — [House Robber](https://leetcode.com/problems/house-robber/)
+- [ ] **Grid DP** — [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
+- [ ] **Unique paths / obstacles** — [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
+- [ ] **Minimum-cost path** — [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
+- [ ] **0/1 knapsack** — [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
+- [ ] **Unbounded knapsack** — [Coin Change](https://leetcode.com/problems/coin-change/)
+- [ ] **Subset sum** — [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
+- [ ] **Equal partition** — [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
+- [ ] **Coin change — minimum coins** — [Coin Change](https://leetcode.com/problems/coin-change/)
+- [ ] **Coin change — number of ways** — [Coin Change II](https://leetcode.com/problems/coin-change-ii/)
+- [ ] **Longest increasing subsequence (LIS)** — [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+- [ ] **Longest common subsequence (LCS)** — [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+- [ ] **Edit distance** — [Edit Distance](https://leetcode.com/problems/edit-distance/)
+- [ ] **String DP** — [Decode Ways](https://leetcode.com/problems/decode-ways/)
+- [ ] **Palindrome DP** — [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
+- [ ] **Interval DP** — [Burst Balloons](https://leetcode.com/problems/burst-balloons/)
+- [ ] **Matrix-chain multiplication** — [Burst Balloons](https://leetcode.com/problems/burst-balloons/)
+- [ ] **DP on trees** — [House Robber III](https://leetcode.com/problems/house-robber-iii/)
+- [ ] **DP on DAGs** — [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)
+- [ ] **Bitmask DP** — [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)
+- [ ] **Digit DP** — [Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)
+- [ ] **DP with multiple states** — [House Robber](https://leetcode.com/problems/house-robber/)
+- [ ] **Stock trading DP** — [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
+- [ ] **DP with monotonic optimization** — [House Robber](https://leetcode.com/problems/house-robber/)
+- [ ] **Probability DP** — [New 21 Game](https://leetcode.com/problems/new-21-game/)
+
+## Trie
+
+- [ ] **Prefix trie** — [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- [ ] **Insert / search / startsWith** — [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- [ ] **Word dictionary with wildcard** — [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- [ ] **Prefix counting** — [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- [ ] **Longest common prefix** — [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- [ ] **Word search with trie** — [Word Search](https://leetcode.com/problems/word-search/)
+- [ ] **Bitwise trie for XOR** — [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- [ ] **Trie + DFS / backtracking** — [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+
+## Union-Find (DSU)
+
+- [ ] **Find and union** — [Redundant Connection](https://leetcode.com/problems/redundant-connection/)
+- [ ] **Path compression** — [Redundant Connection](https://leetcode.com/problems/redundant-connection/)
+- [ ] **Union by rank** — [Redundant Connection](https://leetcode.com/problems/redundant-connection/)
+- [ ] **Union by size** — [Redundant Connection](https://leetcode.com/problems/redundant-connection/)
+- [ ] **Connected component counting** — [Redundant Connection](https://leetcode.com/problems/redundant-connection/)
+- [ ] **Cycle detection** — [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
+- [ ] **Grid connectivity** — [Redundant Connection](https://leetcode.com/problems/redundant-connection/)
+- [ ] **Kruskal’s MST** — [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
+- [ ] **Redundant connection** — [Redundant Connection](https://leetcode.com/problems/redundant-connection/)
+- [ ] **Offline connectivity queries** — [Redundant Connection](https://leetcode.com/problems/redundant-connection/)
+
+## Bit Manipulation
+
+- [ ] **AND / OR / XOR** — [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)
+- [ ] **Bit masks** — [Single Number](https://leetcode.com/problems/single-number/)
+- [ ] **Set / clear / toggle / test a bit** — [Single Number](https://leetcode.com/problems/single-number/)
+- [ ] **Check power of two** — [Single Number](https://leetcode.com/problems/single-number/)
+- [ ] **Count set bits** — [Single Number](https://leetcode.com/problems/single-number/)
+- [ ] **Brian Kernighan’s algorithm** — [Single Number](https://leetcode.com/problems/single-number/)
+- [ ] **XOR cancellation** — [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)
+- [ ] **Missing / unique number** — [Single Number](https://leetcode.com/problems/single-number/)
+- [ ] **Bitmask subsets** — [Subsets](https://leetcode.com/problems/subsets/)
+- [ ] **Bitmask DP** — [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)
+- [ ] **Shift operations** — [Single Number](https://leetcode.com/problems/single-number/)
+- [ ] **Bitwise trie** — [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- [ ] **Prefix XOR** — [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+- [ ] **XOR basis concepts** — [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)
+
+## Math & Number Theory
+
+- [ ] **GCD / Euclidean algorithm** — [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/)
+- [ ] **LCM** — [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/)
+- [ ] **Prime checking** — [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
+- [ ] **Sieve of Eratosthenes** — [Count Primes](https://leetcode.com/problems/count-primes/)
+- [ ] **Prime factorization** — [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
+- [ ] **Modular arithmetic** — [Unique Paths](https://leetcode.com/problems/unique-paths/)
+- [ ] **Fast modular exponentiation** — [Unique Paths](https://leetcode.com/problems/unique-paths/)
+- [ ] **Combinations / nCr** — [Combinations](https://leetcode.com/problems/combinations/)
+- [ ] **Permutations and counting** — [Permutations](https://leetcode.com/problems/permutations/)
+- [ ] **Number digit manipulation** — [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+- [ ] **Palindromic numbers** — [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+- [ ] **Integer overflow** — [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+- [ ] **Basic probability** — [New 21 Game](https://leetcode.com/problems/new-21-game/)
+- [ ] **Pigeonhole principle** — [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+- [ ] **Invariants and parity** — [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+
+## String Algorithms
+
+- [ ] **Character frequency** — [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
+- [ ] **Anagram detection** — [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+- [ ] **String reversal / normalization** — [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+- [ ] **Palindrome checking** — [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+- [ ] **Expand around center** — [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+- [ ] **KMP prefix function** — [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
+- [ ] **Z algorithm** — [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)
+- [ ] **Rabin–Karp / rolling hash** — [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)
+- [ ] **Manacher’s algorithm** — [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+- [ ] **String matching** — [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
+- [ ] **Longest common prefix** — [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+- [ ] **Pattern matching with wildcards** — [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- [ ] **String compression** — [String Compression](https://leetcode.com/problems/string-compression/)
+- [ ] **Parsing and tokenization** — [Basic Calculator](https://leetcode.com/problems/basic-calculator/)
+
+## Monotonic Structures
+
+- [ ] **Monotonic stack** — [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+- [ ] **Monotonic queue** — [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+- [ ] **Next greater element** — [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+- [ ] **Previous smaller element** — [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+- [ ] **Largest rectangle in histogram** — [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+- [ ] **Sliding-window maximum** — [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
+- [ ] **Contribution counting (subarray minimums / maximums)** — [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)
+- [ ] **Cartesian tree concepts** — [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+
+## Advanced Data Structures & Query Techniques
+
+- [ ] **Fenwick tree (Binary Indexed Tree)** — [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
+- [ ] **Segment tree** — [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
+- [ ] **Lazy propagation** — [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
+- [ ] **Sparse table** — [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
+- [ ] **Range minimum / maximum queries** — [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
+- [ ] **Order-statistics tree concepts** — [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
+- [ ] **Coordinate compression** — [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
+- [ ] **Offline queries** — [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
+- [ ] **Mo’s algorithm** — [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
+- [ ] **Persistent data structures** — [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
+- [ ] **Sqrt decomposition** — [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
+
+## Advanced Graph & Optimization Patterns
+
+- [ ] **Strongly connected components (Kosaraju / Tarjan)** — [Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
+- [ ] **Bridges and articulation points** — [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)
+- [ ] **Eulerian paths / circuits** — [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
+- [ ] **Hamiltonian path concepts** — [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/)
+- [ ] **Lowest common ancestor (binary lifting)** — [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+- [ ] **Heavy-light decomposition** — [Path Sum](https://leetcode.com/problems/path-sum/)
+- [ ] **Max flow / min cut** — [Maximum Number of Accepted Invitations](https://leetcode.com/problems/maximum-number-of-accepted-invitations/)
+- [ ] **Bipartite matching** — [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)
+- [ ] **Min-cost max-flow** — [Maximum Number of Accepted Invitations](https://leetcode.com/problems/maximum-number-of-accepted-invitations/)
+- [ ] **A\* search** — [Network Delay Time](https://leetcode.com/problems/network-delay-time/)
+- [ ] **Shortest path with state expansion** — [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)
+
+## Design & Simulation Problems
+
+- [ ] **Hash map + doubly linked list (LRU cache)** — [Design Linked List](https://leetcode.com/problems/design-linked-list/)
+- [ ] **LFU cache** — [LFU Cache](https://leetcode.com/problems/lfu-cache/)
+- [ ] **Randomized set** — [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
+- [ ] **Min stack** — [Min Stack](https://leetcode.com/problems/min-stack/)
+- [ ] **Design a queue using stacks** — [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
+- [ ] **Design a stack using queues** — [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
+- [ ] **Time-based key-value store** — [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)
+- [ ] **Iterator design** — [Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)
+- [ ] **Data structure simulation** — [Design Browser History](https://leetcode.com/problems/design-browser-history/)
+- [ ] **Event-driven simulation** — [Design Browser History](https://leetcode.com/problems/design-browser-history/)
+- [ ] **State machine simulation** — [Design Browser History](https://leetcode.com/problems/design-browser-history/)
+
+---
+
+**Total subtopics mapped:** 385

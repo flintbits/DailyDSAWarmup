@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap');
+
+:root {
+  /* Core palette */
+  --bg: #fafafa;
+  --surface: #ffffff;
+  --text: #111111;
+  --text-secondary: #555555;
+  --text-tertiary: #888888;
+  --border: #e0e0e0;
+  --border-light: #eeeeee;
+
+  /* Orange accent — product identity */
+  --color-accent: #E87532;
+  --color-accent-hover: #D96325;
+  --color-accent-subtle: #FFF1E8;
+
+  /* Status */
+  --success: #22c55e;
+  --success-soft: #f0fdf4;
+  --danger: #ef4444;
+  --danger-soft: #fef2f2;
+
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: light;
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--bg);
+}
+
+button, input, textarea, select { font: inherit; }
+button { border: none; background: none; cursor: pointer; }
+img, a { -webkit-tap-highlight-color: transparent; }
+#root { min-height: 100vh; }
+h1, h2, h3, h4, p { margin-top: 0; }
+p { margin-bottom: 0; }
+
+::selection {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #d4d4d4; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #a3a3a3; }
